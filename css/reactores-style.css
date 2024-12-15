@@ -1,0 +1,146 @@
+/* General */
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #15297c;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Contenido */
+main{
+    padding: 45px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+p{
+    padding: 8px;
+}
+.textos{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+h2{
+    font-size: 1.5rem;
+    color: #15297c;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.contenedor-p{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    padding: 15px;
+    margin:10px;
+}
+
+.info{
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: fit-content;
+}
+
+.info-diseno li{
+    line-height: 1.5;
+    margin: 30px;
+}
+
+li {
+    margin: 20px;
+}
+
+.reactor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reactor p{
+    text-align: justify;
+    line-height: 1.6;
+}
+/* Tabla */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #5c5c5c;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #15297c;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    
+}
+
+footer p{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 0;
+}
